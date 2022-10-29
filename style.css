@@ -1,0 +1,62 @@
+/*CSS RESET*/
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+.nav_bar a{
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.nav_bar{
+    background-color: black;
+    overflow: hidden;
+    
+}
+
+img{
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 5px;
+    radius: 20px;
+    width: 500px;
+    float: right;
+    max-width: 50%;
+    height: 90%;
+}
+
+body {
+    background-color: #DBF9FC;
+}
+
+#about_me {
+    height: 300px;
+}
+
+#contact {
+    align-content: center;
+}
+
+#social {
+    float: right;
+}
+
+#other_contact {
+    float: left;
+}
+
+/* footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+  } */

@@ -1,0 +1,168 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <form id="registration" class="container">
+            <label for="firstName">First Name</label>
+
+            
+            <br>
+            <label for="lastName">Last Name</label>
+
+            <br>
+            <label for="phoneNumber">Phone Number</label>
+
+            <br>
+            <label for="email">Email</label>
+            <input type="text" placeholder="Enter Email" name="email" id="email" required>
+            <br>
+            <label for="gender">Gender</label>
+
+            <br>
+            <label for="dob">Date of Birth</label>
+
+            <br>
+            <label for="color">Favorite color</label>
+
+            <br>
+            <button type="submit">Register</button>
+        </form>
+
+        <form id="login">
+            <label for="username">Email</label>
+
+
+            <label for="psw">Password</label>
+            <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+
+
+            <button type="submit">Login</button>
+
+        </form>
+        
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style_3.css" />
+  </head>
+  <body>
+    <form action="/action_page.php">
+      <div class="container" id="register form">
+        <h1>Register</h1>
+        <p>Please register with us by filling in this form</p>
+        <hr />
+
+        <label for="firstName"><b>First Name</b></label>
+        <input
+          type="text"
+          placeholder="First Name"
+          name="firstName"
+          id="firstName"
+          required
+        />
+
+        <label for="lastName"><b>Last Name</b></label>
+        <input
+          type="text"
+          placeholder="Last Name"
+          name="lastName"
+          id="lastName"
+          required
+        />
+
+        <label for="phoneNumber"><b>Phone Number</b></label>
+        <input
+          type="number"
+          placeholder="+234 123 456 7890"
+          name="phoneNumber"
+          id="phoneNumber"
+          required
+        />
+
+        <label for="email"><b>Email</b></label>
+        <input
+          type="text"
+          placeholder="Enter Email"
+          name="email"
+          id="email"
+          required
+        />
+
+        <label for="gender"><b>Select your gender</b></label>
+        <select name="gender">
+          <option value="none" selected>Gender</option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="other">other</option>
+        </select>
+
+        <label for="dob"><b>Date of Birth</b></label>
+        <input type="date" id="dob" name="dob" />
+
+        <label for="favcolor">Select your favorite color</label>
+        <input type="color" id="favcolor" name="favcolor" />
+
+        <button type="submit" class="btn" id="registerBtn">Register</button>
+
+        <hr />
+      </div>
+    </form>
+    <form>
+      <div class="container" id="loginform">
+        <h1>Login</h1>
+        <p>Please log into your account</p>
+        <hr />
+
+        <label for="username"><b>Username</b></label>
+        <input
+          type="text"
+          placeholder="Enter Email"
+          name="username"
+          id="username"
+          required
+        />
+
+        <label for="psw"><b>Password</b></label>
+        <input
+          type="password"
+          placeholder="Enter Password"
+          name="psw"
+          id="psw"
+          required
+        />
+
+        <a href="#successful">
+            <button type="submit" class="btn" id="loginBtn">Login</button>
+        </a>
+    </form>    
+        <hr />
+      </div>
+
+      <div class="successful" id="successful">
+        <h1 style="color: white;">
+            Congratulations! You have logged in!
+        </h1>
+      </div>
+      <!-- <div class="container signin">
+        <p>Already have an account? <a href="#">Sign in</a>.</p>
+      </div> -->
+    
+  </body>
+</html>
