@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+}
+
+main {
+    display: flex;
+    width: 60%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+div {
+    padding: 30px;
+    width: 100%;
+}
+
+p {
+    padding-bottom: 40px;
+    padding-top: 20px;
+    color: white;
+    font-weight: 50;
+}
+
+h2 {
+    padding: 20px 0px;
+    text-align: left;
+    color: white;
+}
+
+button {
+    margin-top: 30px;
+    background-color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 20px;
+    font-size: 10px;
+    width: 60%;
+    margin-bottom: 15px;
+}
+
+img {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.suvs {
+    background-color: teal;
+}
+
+.suvs button {
+    color: teal;
+}
+
+.luxury {
+    background-color: darkslategray;
+}
+
+.luxury button {
+    color: darkslategray;
+}
+
+.sedans {
+    background-color: darkorange;
+}
+
+.sedans button {
+    color: darkorange;
+}
